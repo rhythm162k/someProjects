@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{%TITLE%}</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+        margin: 0;
+        padding: 40px;
+      }
+
+      .movie-container {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+      }
+
+      .meta {
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .description {
+        line-height: 1.6;
+      }
+
+      .back {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        background: #333;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+      }
+
+      .top-rated {
+        border: 4px solid gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="movie-container {%TOP_RATED%}">
+      <img src="/images/{%POSTER%}" alt="{%TITLE%}" />
+
+      <h1>{%TITLE%}</h1>
+
+      <div class="meta">
+        <p>🎭 Genre: {%GENRE%}</p>
+        <p>🎬 Director: {%DIRECTOR%}</p>
+        <p>📅 Year: {%YEAR%}</p>
+        <p>⭐ Rating: {%RATING%}</p>
+      </div>
+
+      <div class="description">
+        <p>{%DESCRIPTION%}</p>
+      </div>
+
+      <a href="/" class="back">← Back to Home</a>
+    </div>
+  </body>
+</html>

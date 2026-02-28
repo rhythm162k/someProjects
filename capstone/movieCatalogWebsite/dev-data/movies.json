@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "rating": 8.8,
+    "director": "Christopher Nolan",
+    "year": 2010,
+    "poster": "inception.jpg",
+    "description": "A thief who steals corporate secrets..."
+  },
+  {
+    "id": 1,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "rating": 8.6,
+    "director": "Christopher Nolan",
+    "year": 2014,
+    "poster": "interstellar.jpg",
+    "description": "A team travels through a wormhole..."
+  }
+]
